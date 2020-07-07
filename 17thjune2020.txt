@@ -1,0 +1,15 @@
+role:
+
+httpd
+
+files >> httpd.conf
+
+template >> httpd.conf  (template is a sample file where only keys are defined with no values'similar to w3web page template')
+
+vars or defaults or group_vars >> defines variables here which declared in  template file
+
+tasks: main.yml >>
+
+yum install httpd >> /etc/httpd/conf/httpd.conf
+
+copy httpd.conf  /etc/hhtpd/conf/httpd.conf

@@ -1,0 +1,73 @@
+linux commands
+
+Different distributions on Unix:
+ Redhat
+ Ubuntu
+ Fedora
+ CentOS
+ Suse
+ Debian
+ Sun Solaris
+ HP UX
+ IBM AIX
+
+Types of Users in Linux:
+ Root - Is a siper user for admin purpose.
+ Normal User - apart from root Everybody as a user only.   
+
+Basic commands of Linux:
+ whoami - it will show you the current user name
+ sudo -i - switch to root user name (Admin)
+ pwd - present working ditrectory
+ ls - list of files/folders
+ id - it will show current user
+ cd - change directory
+
+Directory structure:
+/
+Root home boot dev etc tmp bin sbin opt
+
+/root -> root home directory
+
+/home -> home directory to normal users (personel user others cannot open)
+/home  /home/pavan   /home/varun
+
+/etc  ->system and application related configuration
+
+/dev  ->device files
+
+/emp  ->temporary files ,sfter 30 days files will be automatically deleted
+
+/boot ->bootable(kernal) files
+
+/bin , /sbin ->executables, binaries, command files
+
+/lib -> libraries
+
+commands:
+ 
+ls -l : gives the detail properties
+
+ls --help: gives the details of the ls command like -l command usage
+
+rm -r filename: removes the file mentioned
+
+vi filename: opens the fileif aleardy existed or creates and open if it does not exist
+
+
+
+
+april 18th 2020
+
+cat > filename: creates and open the file (ctrl+D to save the file open the file 'cat filename')
+                if there is a existing file it directly overides the data and creates a new file.
+cat >> filename:it similar creates the data and appends the data to the file if it already exits
+DRABACK of cat command i.e. we cannot modify the data
+
+vi editor modes
+1. ESC
+2. Insert mode
+     i  , I , a , A ,o , O
+3. Command
+    
+   
